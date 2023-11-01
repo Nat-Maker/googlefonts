@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: #141b25;
+}
+
+body {
+    width: 750px;
+    height: 1000px;
+    margin: auto;
+    background-color: antiquewhite;
+}
+
+/*-- --*/
+
+header {
+    width: 750px;
+    height: 250px;
+    background-color: #8b3037;
+    font-family: 'Agbalumo';
+    font-size: 20px;
+}
+
+/* -- un0 -- */
+
+section#banner {
+    width: 250px;
+    height: 250px;
+    float: left;
+    color: #d8cfc0;
+}
+
+section#logo {
+    width: 250px;
+    height: 250px;
+    float: left;
+    color: #a1b2c7;
+}
+
+section#login {
+    width: 250px;
+    height: 250px;
+    float: right;
+    color: #d8cfc0;
+    transition: .5s;
+}
+
+section#banner:hover, section#logo:hover, section#login:hover{
+    transition: .5s;
+    background-color: #525f6f;
+    color: #141b25;
+}
+
+.caja {
+    position: relative;
+    display: inline-block;
+}
+
+.uno {
+    position: absolute;
+    top: 20px;
+    left: 5%;
+}
+
+.dos {
+    position: absolute;
+    top: 20px;
+    left: 5%;
+}
+
+.tres {
+    position: absolute;
+    top: 20px;
+    left: 5%;
+}
+
+/* -- nav -- */
+
+nav {
+    width: 750px;
+    height: 250px;
+    background-color: #243141;
+    color: #d4848b;
+    font-family: 'Playpen Sans';
+    font-size: 20px;
+}
+
+/* -- dos -- */
+
+section#inicio {
+    width: 250px;
+    height: 250px;
+    float: left;
+}
+
+section#producto {
+    width: 250px;
+    height: 250px;
+    float: left;
+}
+
+section#contacto {
+    width: 250px;
+    height: 250px;
+    float: right;
+}
+
+section#inicio:hover, section#producto:hover, section#contacto:hover{
+    transition: .5s;
+    background-color: #47181c;
+    color: #d8cfc0;
+}
+
+
+main {
+    width: 750px;
+    height: 250px;
+    background-color: antiquewhite;
+    color: brown;
+    font-family: 'Edu TAS Beginner';
+}
+
+/* -- tres --*/
+main {
+    font-size: 20px;
+    font-weight:bold; 
+    color: #8b3037;
+    background-color: #525f6f;
+}
+
+aside#hoy {
+    width: 250px;
+    height: 250px;
+    float: left;
+}
+
+article#novedades {
+    width: 250px;
+    height: 250px;
+    float: left;
+    color: #dbccc3;
+}
+
+aside#internacional {
+    width: 250px;
+    height: 250px;
+    float: right;
+}
+
+aside#hoy:hover, article#novedades:hover, aside#internacional:hover{
+    transition: .5s;
+    background-color: #d8cfc0;
+    color: #243141;
+}
+
+
+/* -- footer --*/
+
+footer{
+    width: 750px;
+    height: 250px;
+    background-color: #8b3037;
+    font-family: 'Bebas Neue';
+    font-size: 20px;
+    color: #d8cfc0;
+}
+
+/* -- cuatro -- */
+
+aside#creditos{
+    width: 250px;
+    height: 50px;
+    float: left;
+}
+
+article#lugar{
+    width: 250px;
+    height: 250px;
+    float: left;
+}
+
+aside#correo{
+    width: 250px;
+    height: 250px;
+    float: right;
+}
+
+aside#creditos:hover, article#lugar:hover, aside#correo:hover{
+    transition: .5s;
+    background-color: #d8cfc0;
+    color: #243141;
+}
